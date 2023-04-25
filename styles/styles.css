@@ -21,20 +21,22 @@ h1 {
 }
 
 .interior {
+    position: relative;
+    box-sizing: border-box;
     width: 1150px;
     height: 500px;
     margin-left: 125px;
     margin-top: 30px;
-    background-repeat: no-repeat;
     background-image: url(../resources/Interior.png);
-    background-size: contain;
 }
 
 .interior-text p {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     width: 430px;
     height: 81px;
-    padding-top: 379px;
-    padding-left: 40px;
+    margin: 0;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -226,9 +228,11 @@ h2 {
 .btn_2 {
     display: block;
     width: 1150px;
-    height: 153px;
+    height: 40.98px;
     margin-top: 89.96px;
     margin-left: 125px;
+    padding-top: 56px;
+    padding-bottom: 56px;
     border-radius: 5px;
     border: 1px solid #AD1818;
     background-color: #FFFFFF;
@@ -248,3 +252,73 @@ h2 {
     color: #FFFFFF;
 }
    
+.section {
+    width: 100%;
+    height: 1844px;
+    margin-top: 150px;
+    background-color: #121212;
+}
+
+.section-title {
+    width: 66px;
+    height: 25px;
+    margin: 0;
+    padding-top: 151px;
+    padding-left: 127px;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.rectangle-img {
+    width: 1150px;
+    height: 270px;
+    padding-top: 34px;
+    padding-left: 125px;
+}
+
+.rectangle-text {
+    width: 661px;
+    height: 41px;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 128px;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
+
+.rectangle-img-1 {
+    padding-top: 60px;
+    padding-left: 125px;
+}
+
+.rectangle {
+    position: relative;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 717px;
+    background-image: url(../resources/Rectangle_5.png);
+}
+
+.rectangle-title {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    height: 82px;
+    margin: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+}
