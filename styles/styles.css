@@ -20,7 +20,7 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-.interior {
+.projekt {
     position: relative;
     box-sizing: border-box;
     width: 1150px;
@@ -30,7 +30,7 @@ h1 {
     background-image: url(../resources/Interior.png);
 }
 
-.interior-text p {
+.projekt_text p {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -58,7 +58,7 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.interior-title {
+.projekt_title {
     width: 51px;
     height: 25px;
     margin-top: 109px;
@@ -102,13 +102,12 @@ h2 {
     color: #121212;
 }
 
-.interior_2-text {
+.projekt_2_text {
     width: 79px;
     height: 25px;
     margin-top: 0px;
     margin-bottom: 29.99px;
     padding-top: 151px;
-    padding-left: 125px;
     color: #121212;
     font-style: normal;
     font-weight: 400;
@@ -118,13 +117,13 @@ h2 {
     text-transform: uppercase;
 }
 
-.interior_2-img {
+.projekt_2_img {
     width: 1150px;
     height: 449.79px;
     padding-left: 125px;
 }
 
-.interior_2-title {
+.projekt_2_title {
     width: 501px;
     height: 40.98px;
     margin: 0px;
@@ -138,7 +137,7 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.interior_2-btn {
+.projekt_2_btn {
     width: 127px;
     height: 26.99px;
     padding-top: 14.99px;
@@ -153,14 +152,14 @@ h2 {
     cursor: pointer;
 }
 
-.interior_3-img {
+.projekt_3_img {
     width: 1150px;
     height: 449.79px;
     padding-top: 89.96px;
     padding-left: 125px;
 }
 
-.interior_3-title {
+.projekt_3_title {
     width: 520px;
     height: 40.98px;
     margin: 0px;
@@ -174,7 +173,7 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.interior_3-btn {
+.projekt_3_btn {
     width: 127px;
     height: 26.99px;
     padding-top: 14.99px;
@@ -189,14 +188,14 @@ h2 {
     cursor: pointer;
 }
 
-.interior_4-img {
+.projekt_4_img {
     width: 1150px;
     height: 449.79px;
     padding-top: 89.96px;
     padding-left: 125px;
 }
 
-.interior_4-title {
+.projekt_4_title {
     width: 542px;
     height: 40.98px;
     margin: 0px;
@@ -210,7 +209,7 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.interior_4-btn {
+.projekt_4_btn {
     width: 127px;
     height: 26.99px;
     padding-top: 14.99px;
@@ -253,6 +252,8 @@ h2 {
 }
    
 .section {
+    position: relative;
+    box-sizing: border-box;
     width: 100%;
     height: 1844px;
     margin-top: 150px;
@@ -301,8 +302,7 @@ h2 {
 }
 
 .rectangle {
-    position: relative;
-    box-sizing: border-box;
+    position: absolute;
     width: 1400px;
     height: 717px;
     background-image: url(../resources/Rectangle_5.png);
@@ -322,3 +322,25 @@ h2 {
     line-height: 41px;
     letter-spacing: -0.03em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
