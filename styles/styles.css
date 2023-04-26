@@ -1,6 +1,6 @@
 body {
     width: 1400px;
-    height: 7000px;
+    height: 8000px;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
@@ -267,28 +267,29 @@ h2 {
     padding-top: 151px;
     padding-left: 127px;
     color: #FFFFFF;
-    font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
 }
 
-.rectangle-img {
+.section_img {
     width: 1150px;
     height: 270px;
     padding-top: 34px;
     padding-left: 125px;
 }
 
-.rectangle-text {
+.section_text {
     width: 661px;
     height: 41px;
     margin: 0;
     padding-top: 15px;
     padding-left: 128px;
     color: #FFFFFF;
-    font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -296,19 +297,25 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.rectangle-img-1 {
+.last{
+    padding-bottom: 132px;
+}
+
+.section_img_1 {
     padding-top: 60px;
     padding-left: 125px;
 }
 
-.rectangle {
-    position: absolute;
-    width: 1400px;
+.interior {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
     height: 717px;
     background-image: url(../resources/Rectangle_5.png);
+    background-size: cover;
 }
 
-.rectangle-title {
+.interior_title {
     position: absolute;
     left: 125px;
     bottom: 60px;
@@ -322,23 +329,6 @@ h2 {
     line-height: 41px;
     letter-spacing: -0.03em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
