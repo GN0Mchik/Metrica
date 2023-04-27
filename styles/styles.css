@@ -186,10 +186,6 @@ body {
     
 }
 
-.aside:nth-last-child(3) {
-    padding-bottom: 90px;
-}
-
 .deck_color {
     padding-bottom: 60px;
     color: #FFFFFF;
@@ -199,6 +195,11 @@ body {
     width: 1150px;
     height: 270px;
     padding-left: 125px;
+}
+
+.deck_color_last {
+    padding-bottom: 150px;
+    color: #FFFFFF;
 }
 
 .box {
