@@ -1,11 +1,11 @@
 body {
+    box-sizing: border-box;
     width: 1400px;
     margin: 0 auto;
-    box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
 
-h1 {
+.title {
     width: 956px;
     height: 120px;
     margin-top: 128px;
@@ -19,7 +19,7 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-.projekt {
+.logo {
     position: relative;
     box-sizing: border-box;
     width: 1150px;
@@ -29,7 +29,7 @@ h1 {
     background-image: url(../resources/Interior.png);
 }
 
-.projekt_text p {
+.text {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -44,25 +44,12 @@ h1 {
     letter-spacing: -0.03em;
 }
 
-h2 {
-    width: 1048px;
-    height: 366px;
-    margin-top: 30px;
-    margin-left: 128px;
-    margin-bottom: 0;
-    color: #121212;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 61px;
-    letter-spacing: -0.03em;
-}
-
-.projekt_title {
-    width: 51px;
+.tagline {
+    width: 80px;
     height: 25px;
-    margin-top: 109px;
+    margin-top: 150px;
     margin-left: 125px;
+    margin-bottom: 30px;
     color: #121212;
     font-style: normal;
     font-size: 18px;
@@ -71,6 +58,19 @@ h2 {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     
+}
+
+.subtitle {
+    width: 1048px;
+    height: 366px;
+    margin-left: 128px;
+    margin-bottom: 0;
+    color: #121212;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
 }
 
 .btn {
@@ -102,102 +102,15 @@ h2 {
     color: #121212;
 }
 
-.projekt_2_text {
-    width: 79px;
-    height: 25px;
-    margin-top: 0px;
-    margin-bottom: 29.99px;
-    padding-top: 151px;
-    color: #121212;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-}
-
-.projekt_2_img {
+.image {
     width: 1150px;
     height: 449.79px;
     padding-left: 125px;
 }
 
-.projekt_2_title {
-    width: 501px;
-    height: 40.98px;
-    margin: 0px;
-    padding-top: 14.99px;
-    padding-left: 125px;
-    color: #121212;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.projekt_2_btn {
-    width: 127px;
-    height: 26.99px;
-    padding-top: 14.99px;
-    padding-bottom: 89.96px;
-    padding-left: 127px;
-    color: #AD1818;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    cursor: pointer;
-}
-
-.projekt_3_img {
-    width: 1150px;
-    height: 449.79px;
-    padding-top: 89.96px;
-    padding-left: 125px;
-}
-
-.projekt_3_title {
-    width: 520px;
-    height: 40.98px;
-    margin: 0px;
-    padding-top: 14.99px;
-    padding-left: 125px;
-    color: #121212;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.projekt_3_btn {
-    width: 127px;
-    height: 26.99px;
-    padding-top: 14.99px;
-    padding-bottom: 89.96px;
-    padding-left: 127px;
-    color: #AD1818;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    cursor: pointer;
-}
-
-.projekt_4_img {
-    width: 1150px;
-    height: 449.79px;
-    padding-top: 89.96px;
-    padding-left: 125px;
-}
-
-.projekt_4_title {
+.deck {
     width: 542px;
-    height: 40.98px;
+    height: 41px;
     margin: 0px;
     padding-top: 14.99px;
     padding-left: 125px;
@@ -209,12 +122,14 @@ h2 {
     letter-spacing: -0.03em;
 }
 
-.projekt_4_btn {
+
+
+.link {
     width: 127px;
     height: 26.99px;
     padding-top: 14.99px;
-    padding-bottom: 89.96px;
     padding-left: 127px;
+    padding-bottom: 110px;
     color: #AD1818;
     font-style: normal;
     font-weight: 400;
@@ -224,12 +139,14 @@ h2 {
     cursor: pointer;
 }
 
-.btn_2 {
+
+
+.btn__two {
     display: block;
     width: 1150px;
     height: 40.98px;
-    margin-top: 89.96px;
     margin-left: 125px;
+    margin-bottom: 150px;
     padding-top: 56px;
     padding-bottom: 56px;
     border-radius: 5px;
@@ -246,17 +163,16 @@ h2 {
     cursor: pointer;
 }
 
-.btn_2:hover {
+.btn__two:hover {
     background-color: #AD1818;
     color: #FFFFFF;
 }
    
 .section {
-    position: relative;
+    
     box-sizing: border-box;
     width: 100%;
     height: 1844px;
-    margin-top: 150px;
     background-color: #121212;
 }
 
@@ -329,6 +245,23 @@ h2 {
     line-height: 41px;
     letter-spacing: -0.03em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
