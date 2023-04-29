@@ -6,13 +6,16 @@ body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
-
+.header {
+    margin-left: 125px;
+    width: 1150px;
+    height: 61px;
+}
 .header_logo {
     width: 127px;
     height: 22px;
-    margin-left: 125px;
     margin-top: 33px;
-    margin-right: 557px;
+    margin-right: 559px;
    }
 
 .header_nav {
@@ -34,7 +37,7 @@ body {
 }
 
 .nav-link:nth-last-child(1) {
-    margin-right: 125px;
+    margin-right: 0;
 }
 .title {
     width: 956px;
