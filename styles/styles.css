@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     width: 1400px;
+    min-width: 1400px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -11,7 +12,7 @@ body {
     height: 22px;
     margin-left: 125px;
     margin-top: 33px;
-    margin-right: 559px;
+    margin-right: 557px;
    }
 
 .header_nav {
@@ -32,6 +33,9 @@ body {
     text-transform: uppercase;
 }
 
+.nav-link:nth-last-child(1) {
+    margin-right: 125px;
+}
 .title {
     width: 956px;
     height: 120px;
