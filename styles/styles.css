@@ -7,6 +7,7 @@ body {
     font-weight: 400;
 }
 .header {
+    display: block;
     margin-left: 125px;
     width: 1150px;
     height: 61px;
