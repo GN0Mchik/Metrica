@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     width: 1400px;
@@ -35,6 +39,11 @@ body {
     letter-spacing: -0.03em;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid;
+    opacity: 0.5;
 }
 
 .nav-link:nth-last-child(1) {
