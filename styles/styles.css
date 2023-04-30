@@ -12,6 +12,7 @@ body {
 .container {
     width: 1400px;
     min-width: 1400px;
+    font-family: 'Manrope', sans-serif;
     margin: 0 auto;
 }
 
