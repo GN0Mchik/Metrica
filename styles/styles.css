@@ -279,6 +279,7 @@ body {
     color: #121212;
     font-style: normal;
     font-size: 60px;
+    text-decoration: none;
     line-height: 60px;
     letter-spacing: -0.03em;
 }
