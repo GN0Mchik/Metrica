@@ -205,7 +205,6 @@ body {
 .aside {
     background-color: #121212;
     padding-top: 149px;
-    min-width: 1400px;
 }
 
 .tag {
@@ -241,7 +240,6 @@ body {
     position: relative;
     height: 717px;
     margin-bottom: 150px;
-    min-width: 1400px;
     background-image: url(../resources/Rectangle_5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,7 +279,7 @@ body {
     font-size: 60px;
     text-decoration: none;
     line-height: 60px;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.016em;
 }
 
 .number:nth-last-child(1) {
@@ -289,9 +287,11 @@ body {
 }
 .link_number {
     margin-top: 30px;
-    margin-bottom: 160px;
-    text-decoration: none;
+    margin-bottom: 151px;
+    padding-bottom: 10px;
     color: #121212;
+    text-decoration: none;
+    letter-spacing: -0.03em;
 }
 
 .link_number:hover {
@@ -301,7 +301,6 @@ body {
 .footer {
     margin: 0 auto;
     height: 229px;
-    min-width: 1400px;
     background-color: #121212;
 }
 
