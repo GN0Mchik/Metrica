@@ -4,7 +4,6 @@ html {
 
 body {
     box-sizing: border-box;
-    width: 1400px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -321,7 +320,7 @@ body {
     text-transform: uppercase;
 }
 
-.footer-link:nth-last-child(5) {
+.footer-link:nth-last-child(6) {
     margin-left: 470px;
 }
 
@@ -339,4 +338,9 @@ body {
     line-height: 27px;
     letter-spacing: -0.03em;
     opacity: 0.5;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
 }
