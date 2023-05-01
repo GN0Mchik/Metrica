@@ -205,6 +205,7 @@ body {
 .aside {
     background-color: #121212;
     padding-top: 149px;
+    min-width: 1400px;
 }
 
 .tag {
@@ -240,6 +241,7 @@ body {
     position: relative;
     height: 717px;
     margin-bottom: 150px;
+    min-width: 1400px;
     background-image: url(../resources/Rectangle_5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,6 +303,7 @@ body {
 .footer {
     margin: 0 auto;
     height: 229px;
+    min-width: 1400px;
     background-color: #121212;
 }
 
