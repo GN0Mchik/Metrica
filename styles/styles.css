@@ -164,9 +164,9 @@ body {
     display: block;
     width: 127px;
     height: 26.99px;
-    padding-top: 15px;
-    padding-left: 126px;
-    padding-bottom: 90px;
+    margin-top: 15px;
+    margin-left: 126px;
+    margin-bottom: 90px;
     color: #AD1818;
     font-style: normal;
     font-size: 20px;
