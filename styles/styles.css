@@ -281,7 +281,7 @@ body {
     font-size: 60px;
     text-decoration: none;
     line-height: 60px;
-    letter-spacing: -0.018em;
+    letter-spacing: -0.02em;
 }
 
 .number:nth-last-child(1) {
