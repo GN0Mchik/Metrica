@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    min-width: 1400px;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -181,7 +182,6 @@ body {
 .aside {
     background-color: #121212;
     padding-top: 151px;
-    min-width: 1400px;
 }
 
 .tag {
@@ -213,7 +213,6 @@ body {
     position: relative;
     height: 717px;
     margin-bottom: 150px;
-    min-width: 1400px;
     background-image: url(../resources/Rectangle_5.png);
     background-repeat: no-repeat;
     background-size: cover;
