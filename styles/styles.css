@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    box-sizing: border-box;
     margin: 0 auto;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -11,8 +10,6 @@ body {
 
 .header {
     display: block;
-    margin-left: 125px;
-    width: 1150px;
     height: 61px;
 }
 
@@ -36,7 +33,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -53,21 +49,17 @@ body {
     width: 956px;
     height: 120px;
     margin-top: 68px;
-    margin-left: 125px;
     margin-bottom: 0;
     color: #121212;
     font-style: normal;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
 }
 
 .headline {
     position: relative;
     box-sizing: border-box;
-    width: 1150px;
     height: 500px;
-    margin-left: 125px;
     margin-top: 30px;
     background-image: url(../resources/Interior.png);
 }
@@ -83,34 +75,29 @@ body {
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
 }
 
 .tagline {
     width: 80px;
     height: 25px;
     margin-top: 150px;
-    margin-left: 125px;
     margin-bottom: 30px;
     color: #121212;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
     
 }
 
 .subtitle {
     width: 1048px;
-    height: 366px;
-    margin-left: 128px;
+    height: 366px; 
     margin-bottom: 0;
     color: #121212;
     font-style: normal;
     font-size: 45px;
     line-height: 61px;
-    letter-spacing: -0.031em;
 }
 
 .btn {
@@ -118,7 +105,6 @@ body {
     width: 175px;
     height: 27px;
     margin-top: 28px;
-    margin-left: 125px;
     padding: 20px 40px;
     border-image: initial;
     border-radius: 5px;
@@ -130,7 +116,6 @@ body {
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     cursor: pointer;
 }
@@ -141,48 +126,40 @@ body {
     color: #121212;
 }
 
-.image {
-    width: 1150px;
-    height: 449.79px;
-    padding-left: 125px;
+.project_image {
+    height: 449.79px; 
 }
 
 .deck {
     width: 661px;
     height: 41px;
     margin: 0px;
-    padding-top: 13px;
-    padding-left: 125px;
+    margin-top: 13px;
     color: #121212;
     font-style: normal;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.032em;
 }
 
 .link {
     display: block;
     width: 127px;
     height: 26.99px;
-    margin-top: 15px;
-    margin-left: 126px;
+    margin-top: 15px; 
     margin-bottom: 90px;
     color: #AD1818;
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     cursor: pointer;
     
 }
 
 .btn__two {
     display: block;
-    width: 1150px;
     height: 40.98px;
-    margin-left: 125px;
     margin-bottom: 150px;
-    padding-top: 56px;
+    padding-top: 53px;
     padding-bottom: 56px;
     border-radius: 5px;
     border: 1px solid #AD1818;
@@ -193,7 +170,6 @@ body {
     line-height: 41px;
     text-align: center;
     text-decoration: none;
-    letter-spacing: -0.03em;
     cursor: pointer;
 }
 
@@ -204,32 +180,28 @@ body {
    
 .aside {
     background-color: #121212;
-    padding-top: 149px;
+    padding-top: 151px;
     min-width: 1400px;
 }
 
 .tag {
     width: 80px;
-    height: 25px;
-    padding-left: 121px;
+    height: 25px;  
     padding-bottom: 34px;
     color: #FFFFFF;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
 }
 
 .deck_color {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     color: #FFFFFF;
 }
 
-.img {
-    width: 1150px;
+.services_image {
     height: 270px;
-    padding-left: 119px;
 }
 
 .deck_color_last {
@@ -249,19 +221,13 @@ body {
 }
 
 .box_title {
-    padding-top: 575px;
-    margin-left: 125px;
+    padding-top: 574px;
     width: 443px;
     height: 82px;
     color: #FFFFFF;
     font-style: normal;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.phone {   
-    margin-left: 125px;
 }
 
 .tagline_contacts {
@@ -274,7 +240,6 @@ body {
     width: 472px;
     height: 60px;
     margin-top: 30px;
-    margin-left: 125px;
     margin-bottom: 0;
     color: #121212;
     font-style: normal;
@@ -287,10 +252,16 @@ body {
 .number:nth-last-child(1) {
     width: 412px;
 }
+
+.number:hover {
+    opacity: 0.5;
+}
+
 .link_number {
+    box-sizing: border-box;
+    height: 73px;
     margin-top: 30px;
     margin-bottom: 151px;
-    padding-bottom: 10px;
     color: #121212;
     text-decoration: none;
     letter-spacing: -0.03em;
@@ -301,7 +272,6 @@ body {
     opacity: 0.5;
 }
 .footer {
-    margin: 0 auto;
     height: 229px;
     min-width: 1400px;
     background-color: #121212;
@@ -309,9 +279,7 @@ body {
 
 .footer-link {
     display: inline-block;
-    vertical-align: top;
-    margin-top: 33px;
-    margin-top: 62px;
+    margin-top: 61px;
     margin-right: 52px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -320,13 +288,13 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
+    vertical-align: top;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .footer-link:nth-last-child(6) {
-    margin-left: 470px;
+    margin-left: 344px;
 }
 
 .footer-link:hover {
@@ -335,17 +303,20 @@ body {
 
 .footer-text {
     margin-top: 87px;
-    margin-left: 509px;
+    margin-left: 385px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     opacity: 0.5;
 }
 
 .container {
-    width: 1400px;
+    width: 1150px;
     margin: 0 auto;
+}
+
+h1, h2, h3, a, p {
+    letter-spacing: -0.03em;
 }
