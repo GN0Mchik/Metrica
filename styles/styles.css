@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    min-width: 1400px;
     margin: 0 auto;
+    min-width: 1400px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
 }
@@ -15,16 +15,16 @@ body {
 }
 
 .header_logo {
-    width: 127px;
-    height: 22px;
     margin-top: 33px;
     margin-right: 555px;
+    width: 127px;
+    height: 22px;
 }
 
 .header_nav {
+    margin-top: 35px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 35px;
 }
 
 .nav-link {
@@ -47,10 +47,10 @@ body {
     margin-right: 0;
 }
 .title {
-    width: 956px;
-    height: 120px;
     margin-top: 68px;
     margin-bottom: 0;
+    width: 956px;
+    height: 120px;
     color: #121212;
     font-style: normal;
     font-size: 60px;
@@ -58,10 +58,10 @@ body {
 }
 
 .headline {
+    margin-top: 30px;
     position: relative;
     box-sizing: border-box;
     height: 500px;
-    margin-top: 30px;
     background-image: url(../resources/Interior.png);
 }
 
@@ -79,10 +79,10 @@ body {
 }
 
 .tagline {
-    width: 80px;
-    height: 25px;
     margin-top: 150px;
     margin-bottom: 30px;
+    width: 80px;
+    height: 25px;
     color: #121212;
     font-style: normal;
     font-size: 18px;
@@ -92,9 +92,9 @@ body {
 }
 
 .subtitle {
-    width: 1048px;
-    height: 366px; 
     margin-bottom: 0;
+    width: 1048px;
+    height: 366px;
     color: #121212;
     font-style: normal;
     font-size: 45px;
@@ -102,11 +102,11 @@ body {
 }
 
 .btn {
+    margin-top: 28px;
+    padding: 20px 40px;
     display: block;
     width: 175px;
     height: 27px;
-    margin-top: 28px;
-    padding: 20px 40px;
     border-image: initial;
     border-radius: 5px;
     border-width: 1px;
@@ -132,10 +132,10 @@ body {
 }
 
 .deck {
-    width: 661px;
-    height: 41px;
     margin: 0px;
     margin-top: 13px;
+    width: 661px;
+    height: 41px;
     color: #121212;
     font-style: normal;
     font-size: 30px;
@@ -143,11 +143,11 @@ body {
 }
 
 .link {
+    margin-top: 15px; 
+    margin-bottom: 90px;
     display: block;
     width: 127px;
     height: 26.99px;
-    margin-top: 15px; 
-    margin-bottom: 90px;
     color: #AD1818;
     font-style: normal;
     font-size: 20px;
@@ -157,11 +157,11 @@ body {
 }
 
 .btn__two {
-    display: block;
-    height: 40.98px;
     margin-bottom: 150px;
     padding-top: 53px;
     padding-bottom: 56px;
+    display: block;
+    height: 40.98px;
     border-radius: 5px;
     border: 1px solid #AD1818;
     background-color: #FFFFFF;
@@ -185,9 +185,9 @@ body {
 }
 
 .tag {
+    padding-bottom: 34px;
     width: 80px;
     height: 25px;  
-    padding-bottom: 34px;
     color: #FFFFFF;
     font-style: normal;
     font-size: 18px;
@@ -211,8 +211,8 @@ body {
 
 .box {
     position: relative;
-    height: 717px;
     margin-bottom: 150px;
+    height: 717px;
     background-image: url(../resources/Rectangle_5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,11 +235,11 @@ body {
 }
 
 .number {
+    margin-top: 30px;
+    margin-bottom: 0;
     display: block;
     width: 472px;
     height: 60px;
-    margin-top: 30px;
-    margin-bottom: 0;
     color: #121212;
     font-style: normal;
     font-size: 60px;
@@ -257,10 +257,10 @@ body {
 }
 
 .link_number {
-    box-sizing: border-box;
-    height: 73px;
     margin-top: 30px;
     margin-bottom: 151px;
+    box-sizing: border-box;
+    height: 73px;
     color: #121212;
     text-decoration: none;
     letter-spacing: -0.03em;
@@ -277,11 +277,11 @@ body {
 }
 
 .footer-link {
-    display: inline-block;
     margin-top: 61px;
     margin-right: 52px;
     margin-bottom: 0;
     padding-bottom: 0;
+    display: inline-block;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
@@ -312,8 +312,8 @@ body {
 }
 
 .container {
-    width: 1150px;
     margin: 0 auto;
+    width: 1150px;
 }
 
 h1, h2, h3, a, p {
