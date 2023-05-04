@@ -46,8 +46,12 @@ body {
 .nav-link:nth-last-child(1) {
     margin-right: 0;
 }
-.title {
+
+.about {
     margin-top: 68px;
+}
+
+.title {
     margin-bottom: 0;
     width: 956px;
     height: 120px;
@@ -78,8 +82,12 @@ body {
     line-height: 27px;
 }
 
-.tagline {
+.projects {
     margin-top: 150px;
+}
+
+
+.tagline {
     margin-bottom: 30px;
     width: 80px;
     height: 25px;
@@ -103,10 +111,10 @@ body {
 
 .btn {
     margin-top: 28px;
-    padding: 20px 40px;
+    padding: 20px 0;
     display: block;
-    width: 175px;
-    height: 27px;
+    width: 255px;
+    height: 67px;
     border-image: initial;
     border-radius: 5px;
     border-width: 1px;
@@ -117,6 +125,7 @@ body {
     font-style: normal;
     font-size: 20px;
     line-height: 27px;
+    text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
@@ -158,10 +167,10 @@ body {
 
 .btn__two {
     margin-bottom: 150px;
-    padding-top: 53px;
+    padding-top: 56px;
     padding-bottom: 56px;
+    height: 153px;
     display: block;
-    height: 40.98px;
     border-radius: 5px;
     border: 1px solid #AD1818;
     background-color: #FFFFFF;
@@ -229,6 +238,10 @@ body {
     line-height: 41px;
 }
 
+.contact_wrapper {
+    margin-bottom: 151px;
+}
+
 .tagline_contacts {
     margin-top: 12px;
     margin-bottom: 0;
@@ -258,7 +271,6 @@ body {
 
 .link_number {
     margin-top: 30px;
-    margin-bottom: 151px;
     box-sizing: border-box;
     height: 73px;
     color: #121212;
