@@ -51,7 +51,7 @@ body {
     margin-top: 68px;
 }
 
-.title {
+.about_title {
     margin-bottom: 0;
     width: 956px;
     height: 120px;
@@ -63,13 +63,14 @@ body {
 
 .headline {
     margin-top: 30px;
+    margin-bottom: 150px;
     position: relative;
     box-sizing: border-box;
     height: 500px;
     background-image: url(../resources/Interior.png);
 }
 
-.text {
+.about_text {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -99,7 +100,7 @@ body {
     
 }
 
-.subtitle {
+.about_subtitle {
     margin-bottom: 0;
     width: 1048px;
     height: 366px;
@@ -188,7 +189,7 @@ body {
     color: #FFFFFF;
 }
    
-.aside {
+.background_color {
     background-color: #121212;
     padding-top: 151px;
 }
@@ -196,7 +197,7 @@ body {
 .tag {
     padding-bottom: 34px;
     width: 80px;
-    height: 25px;  
+    height: 61px;  
     color: #FFFFFF;
     font-style: normal;
     font-size: 18px;
@@ -214,11 +215,11 @@ body {
 }
 
 .deck_color_last {
-    padding-bottom: 150px;
+    padding-bottom: 190px;
     color: #FFFFFF;
 }
 
-.box {
+.background_image {
     position: relative;
     margin-bottom: 150px;
     height: 717px;
