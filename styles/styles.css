@@ -215,7 +215,8 @@ body {
 }
 
 .deck_color_last {
-    padding-bottom: 190px;
+    padding-bottom: 150px;
+    box-sizing: content-box;
     color: #FFFFFF;
 }
 
