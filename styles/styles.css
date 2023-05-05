@@ -195,7 +195,7 @@ body {
 }
 
 .tag {
-    padding-bottom: 34px;
+    margin-bottom: 34px;
     width: 80px;
     height: 25px;  
     color: #FFFFFF;
